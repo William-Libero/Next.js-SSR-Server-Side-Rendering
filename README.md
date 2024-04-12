@@ -1,0 +1,1 @@
+# Next.js-SSR-Static-Site-Generation
