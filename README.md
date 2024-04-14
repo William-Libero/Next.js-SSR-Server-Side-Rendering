@@ -6,7 +6,7 @@
 
 [![NextJS](https://img.shields.io/badge/Next.js-14.1.3-black.svg)](https://nextjs.org/)
 
-<b>Project link:</b> <a href="https://next-js-ssg-static-site-generation.vercel.app/" target="_blank" style="color: blue, textDecoration: underline">https://next-js-ssg-static-site-generation.vercel.app/</a>
+<b>Project link:</b> <a href="https://next-js-ssr-static-site-generation.vercel.app/" target="_blank" style="color: blue, textDecoration: underline">https://next-js-ssr-static-site-generation.vercel.app/</a>
 
 <b>Objective:</b> Next.js news blog project which uses SSR to present updated news.
 
