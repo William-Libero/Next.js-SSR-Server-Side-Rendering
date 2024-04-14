@@ -1,4 +1,4 @@
-# Next.js - News blog - SSG (Static Site Generation)
+# Next.js - News blog - SSR (Server Side Rendering)
 
 <p align="center">
   <a href="https://nextjs.org/" target="blank"><img src="https://testrigor.com/wp-content/uploads/2023/04/nextjs-logo.png" width="300" alt="Nest Logo" /></a>

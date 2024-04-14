@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 import { Heebo } from "next/font/google";
-import Image from "next/image";
 import { LuArrowUpRightSquare } from "react-icons/lu";
+import { FaSquareGithub } from "react-icons/fa6";
 
 // If loading a variable font, you don't need to specify the font weight
 const quicksand = Heebo({
@@ -37,9 +37,18 @@ export default function Home(props) {
     <div className="flex" style={{ userSelect: "none" }}>
       <div className="flex justify-center items-center flex-col h-screen pl-14 pr-2 w-3/4">
         <div className="flex justify-center items-start flex-col fixed">
-          <h1 className={styles.newsProjectTitle + " " + quicksand.className}>
-            News Blog
-          </h1>
+          <div className="flex items-center">
+            <h1 className={styles.newsProjectTitle + " " + quicksand.className}>
+              News Blog{" "}
+            </h1>
+            <a
+              className={styles.githubLink + " " + "text-7xl"}
+              href="https://github.com/William-Libero/Next.js-SSR-Static-Site-Generation"
+              target="_blank"
+            >
+              <FaSquareGithub />
+            </a>
+          </div>
           <p className={styles.newsProjectSubTitle + " " + quicksand.className}>
             Next.js news blog project which uses SSR to present updated news.
           </p>
