@@ -70,7 +70,7 @@ export default function Home(props) {
                   href={individualNew.url}
                   target="_blank"
                 >
-                  Read more <LuArrowUpRightSquare />
+                  <span>Read more</span> <LuArrowUpRightSquare />
                 </a>
               </div>
             </div>
