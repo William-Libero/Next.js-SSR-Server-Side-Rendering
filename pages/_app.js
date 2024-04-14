@@ -6,7 +6,7 @@ export default function app({ Component, pageProps }) {
   return (
     <Providers>
       <Head>
-        <title>Next.js - - SSR (Server Side Rendering)</title>
+        <title>Next.js - News blog - SSR (Server Side Rendering)</title>
         <meta
           name="description"
           content="Next.js - News blog - SSR (Server Side Rendering)"
