@@ -9,7 +9,7 @@ export default function app({ Component, pageProps }) {
         <title>Next.js - - SSR (Server Side Rendering)</title>
         <meta
           name="description"
-          content="Next.js -  - SSR (Server Side Rendering)"
+          content="Next.js - News blog - SSR (Server Side Rendering)"
         />
         <link rel="icon" href="/images/code.png" />
       </Head>
